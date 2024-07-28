@@ -11,20 +11,23 @@ def validate_pw(password: str) -> bool:
     if len(password) < 8:
         return False
 
-    # Password must have at least 1 digit
-    if not any(char.isdigit() for char in password):
-        return False
-
     # Password must have at least 1 uppercase letter
     if not any(char.isupper() for char in password):
         return False
 
-    # Password must have at least 1 special character
-    special_characters = "!@#$%^&*()-+"
-    if not any(char in special_characters for char in password):
-      
     # Password must have at least 1 lowercase letter
+    # disable for now
     if not any(char.islower() for char in password):
         return False
+
+    # # Password must have at least 1 digit
+    # if not any(char.isdigit() for char in password):
+    #     return False
+
+    # # Password must have at least 1 special character
+    # # disable for now
+    # special_characters = "!@#$%^&*()-+"
+    # if not any(char in special_characters for char in password):
+    #     return False
 
     return True
