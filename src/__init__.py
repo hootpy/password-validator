@@ -19,6 +19,10 @@ def validate_pw(password: str) -> bool:
     if not any(char.isupper() for char in password):
         return False
 
+    # Password must have at least 1 special character
+    special_characters = "!@#$%^&*()-+"
+    if not any(char in special_characters for char in password):
+      
     # Password must have at least 1 lowercase letter
     if not any(char.islower() for char in password):
         return False
