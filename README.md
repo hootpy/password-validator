@@ -28,7 +28,25 @@ validate_pw('Password123#') # True
 ## Tests
 
 ```bash
-pytest --tb=no -v
+make test
 ```
 
-## Built with Poetry
+## Build
+
+The package can be built using the following command:
+
+```bash
+make build
+```
+
+Package will be built in the `dist/` directory.
+
+After building the package, it can be installed using the following command:
+
+```bash
+pip install ./password_validator-0.1.0.tar.gz
+
+# or if using poetry as package manager
+
+poetry add ./password_validator-0.1.0.tar.gz
+```
