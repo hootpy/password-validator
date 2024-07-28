@@ -15,4 +15,8 @@ def validate_pw(password: str) -> bool:
     if not any(char.isupper() for char in password):
         return False
 
+    # Password must have at least 1 lowercase letter
+    if not any(char.islower() for char in password):
+        return False
+
     return True
