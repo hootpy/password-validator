@@ -17,7 +17,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'build -f sdist'
+                sh 'poetry build -f sdist'
             }
         }
 
