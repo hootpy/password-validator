@@ -1,0 +1,10 @@
+commit 6fb7910ef332b7d5cf1d27138ddafa400036376e
+tree 0eddfa57d2eb8f54a652e64653a967c56edc8e67
+parent be38dc9b6d5a1daf85573797cbbae786f43cfcf5
+author Hootpy <dev@hootpy.com> 2024-08-21 00:57:17 +0930
+committer Hootpy <dev@hootpy.com> 2024-08-21 00:57:17 +0930
+
+    test: fix unit testcase
+
+
+:100644 100644 542574ee61a12d4a72735c3fef175260c2bc4222 f00c6b2c5feb104ac25a66d2c7e7ad02fd6b0e3d M	password_validator/__init__.py

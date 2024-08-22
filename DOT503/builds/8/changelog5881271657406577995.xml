@@ -1,0 +1,10 @@
+commit 13a15653b38f58e13d48ff54323be1c94e8a6c1d
+tree 5a791ca4df8e88324f5338afa90e35d897b280b1
+parent 6fb7910ef332b7d5cf1d27138ddafa400036376e
+author Hootpy <dev@hootpy.com> 2024-08-21 00:58:21 +0930
+committer Hootpy <dev@hootpy.com> 2024-08-21 00:58:21 +0930
+
+    fix: fix Jenkinsfile
+
+
+:100644 100644 c749c16aadb7a0ab7b906483422ee9e146cf08db 4755b6dd9bd03dd8d982dce6dabb7695e5d72b69 M	Jenkinsfile

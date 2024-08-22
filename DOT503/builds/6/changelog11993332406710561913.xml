@@ -1,0 +1,19 @@
+commit be38dc9b6d5a1daf85573797cbbae786f43cfcf5
+tree 9b43103c69b42e9e5be83a191da231a737f4e950
+parent a3cec8f37f20f60f5d0579560332ecae6ca02d2c
+author Hootpy <dev@hootpy.com> 2024-08-17 00:50:07 +0930
+committer Hootpy <dev@hootpy.com> 2024-08-21 00:55:01 +0930
+
+    feat: add jenkins file
+    
+    test: edit jenkins file
+    
+    test: edit jenkins file
+    
+    test: edit jenkins file
+    
+    update jenkins file
+
+
+:000000 100644 0000000000000000000000000000000000000000 c77066ba8249fa2a7531d236349ed7e631195a4e A	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 c749c16aadb7a0ab7b906483422ee9e146cf08db A	Jenkinsfile

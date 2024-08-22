@@ -50,3 +50,6 @@ pip install ./password_validator-0.1.0.tar.gz
 
 poetry add ./password_validator-0.1.0.tar.gz
 ```
+
+## License
+For more information on the license, please refer to the `LICENSE` file in the root directory of this project.
